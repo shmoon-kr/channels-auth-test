@@ -1,0 +1,15 @@
+Django==5.0.6
+gunicorn~=21.2.0
+channels~=4.0.0
+channels_redis~=4.2.0
+boto3~=1.34.71
+sqlparse==0.4.4
+mysqlclient==2.2.4
+django-filter~=24.2
+django-choices-field~=2.3.0
+strawberry-graphql[channels,debug-server]==0.237.1
+strawberry-graphql-django==0.47.1
+git+https://github.com/shmoon-kr/strawberry-django-auth.git@3fc632c#egg=strawberry-django-auth
+uvicorn[standard]==0.30.3
+requests~=2.31.0
+fluent-logger~=0.11.0
